@@ -1,0 +1,56 @@
+body {
+    background-color: azure;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    background-color: rgb(238, 238, 155);
+    max-width: 360px;
+    margin: 0 auto 100px;
+    padding: 45px;
+    text-align: 10px;
+    text-align: center;
+}
+
+.form input {
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: #f2f2f2;
+    width: 100%;
+    border: 0;
+    margin: 0 0 10px;
+    padding: 11px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.form button {
+    font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border: 0;
+    padding: 17px;
+    color: #ffffff;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.input-control.error input {
+    border-color: #ff3860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 15px;
+    height: 5px;
+    text-align: 10px;
+    margin: 0 0 12px;
+    padding: 3px;
+}
